@@ -1,0 +1,1 @@
+lhtfs#http://bootserver /srv/tftp fuse allow_other,defaults 0 0
