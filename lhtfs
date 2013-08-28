@@ -121,7 +121,6 @@ class lhtfs(Fuse):
 				if offset + size > slen:
 					size = slen - offset
 					buf = self.data[path][offset:offset+size]
-					del self.data[path]
 				else:
 					buf = self.data[path][offset:offset+size]
 					
